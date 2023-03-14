@@ -1,0 +1,10 @@
+server:
+  port: 19001
+
+spring:
+  application:
+    name: seata-service
+  cloud:
+    alibaba:
+      seata:
+        tx-service-group: my_test_tx_group
